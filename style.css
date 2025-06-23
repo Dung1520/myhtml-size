@@ -75,3 +75,21 @@ li:nth-child(2){
 li:nth-child(3){
     color: lightyellow;
 }
+#image {
+    width: 800px;
+    height: 100px;
+    background-color: #eee;
+    border: 2px solid black;
+    margin: 20px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    color: #ffffff;
+    transition: background-image 0.3s ease-in-out;
+}
