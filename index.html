@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Waifu</title>
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -25,9 +26,15 @@
 
         <section>
             <h2>Photo</h2>
-            <img src="rem.jpg" alt="Rem" width="400">
-            <img src="zerotwo.png" alt="Zero Two" width="400">
-            <img src="violet.jpg" alt="Violet(Nang Tho)" width="400">
+
+            <div id="image">Hover over an image below to display</div>
+
+            <img class="preview" src="/images/rem.jpg" alt="Rem" width="400"
+            onmouseover="upDate(this);" onmouseout="undo();">
+            <img class="preview" src="/images/zerotwo.png" alt="Zero Two" width="400"
+            onmouseover="upDate(this);" onmouseout="undo();">
+            <img class="preview" src="/images/violet.jpg" alt="Violet(Nang Tho)" width="400"
+            onmouseover="upDate(this);" onmouseout="undo();">
         </section>
 
         <section>
@@ -39,10 +46,6 @@
     <footer>
         <p>© 2025 My Waifu Page</p>
     </footer>
-
-</body>
-
-</html>
 
 </body>
 
